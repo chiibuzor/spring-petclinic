@@ -4,6 +4,8 @@ WORKDIR /app
 COPY . .
 RUN ./mvnw package
 
+# Testing CI/CD
+
 # Run stage
 FROM openjdk:17-jdk-slim
 WORKDIR /app
