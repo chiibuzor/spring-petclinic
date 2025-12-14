@@ -6,7 +6,6 @@ on:
 jobs:
   Spring_Petclinic:
    
-  
     name: Build Docker Image
     runs-on: ubuntu-latest  
     steps:  
