@@ -7,7 +7,7 @@ RUN ./mvnw package
 # Testing CI/CD
 
 # Run stage
-FROM openjdk:17
+FROM openjdk:17.0.1-jdk
 WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 EXPOSE 8080
